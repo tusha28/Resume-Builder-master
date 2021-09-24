@@ -31,7 +31,7 @@ def index(request):
         from_email = settings.EMAIL_HOST_USER
         connection = mail.get_connection()
         connection.open()
-        email_message = mail.EmailMessage(f'Email From {name}', f'User Email : {email}\n User Phone Number:{phoneno}\n Message from User: {msg}', from_email, ['ayuresumebuilder@gmail.com'], connection=connection)
+        email_message = mail.EmailMessage(f'Email From {name}', f'User Email : {email}\n User Phone Number:{phoneno}\n Message from User: {msg}', from_email, ['tusharar28@gmail.com'], connection=connection)
 
         email_message_user = mail.EmailMessage(f'ResumeBuilder Response', f'Hey {name}\n\n Thanks for reaching us.\n We will get back to you soon.', from_email, [email], connection=connection)
 
