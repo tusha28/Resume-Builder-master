@@ -7,7 +7,7 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.1/topics/settings/
 
 For the full list of settings and their values, see
-https://docs.djangoproject.com/en/3.1/ref/settings/
+https://docs.djangoproject.com/en/3.1/ref/settings
 """
 
 from pathlib import Path
@@ -28,7 +28,7 @@ SECRET_KEY = 'dummy key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['dashboard.heroku.com']
+# ALLOWED_HOSTS = ['reesumee.heroku.com']
 ALLOWED_HOSTS = ['127.0.0.1']
 
 
